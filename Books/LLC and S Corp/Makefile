@@ -40,8 +40,8 @@ CHAPTER_TEMPLATE = $(TEMPLATE_DIR)/pandoc-chapter-template.tex
 
 #------------------------------------------------------------------------------------------
 # Book Metadata
-BOOK_TITLE ?= "Quiz example book"
-BOOK_FILENAME ?= quiz
+BOOK_TITLE ?= "LLC and S Corp: A Comprehensive Guide"
+BOOK_FILENAME ?= llc
 MD ?= $(SRC_DIR)/$(BOOK_FILENAME).md
 EPUB ?= $(BUILD_DIR)/$(BOOK_FILENAME).epub
 PDF_OUT ?= $(BUILD_DIR)/$(BOOK_TITLE).pdf
