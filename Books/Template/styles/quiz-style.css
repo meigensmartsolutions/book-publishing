@@ -1,0 +1,7 @@
+#question-1, #answer-1,
+.quiz-question, .quiz-answer {
+  background-color: #f5f5dc;
+  padding: 1em;
+  border-left: 4px solid #999;
+  margin: 1em 0;
+}

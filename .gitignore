@@ -1,0 +1,44 @@
+# Ignore build artifacts
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.run.xml
+*.bcf
+
+# Compiled PDFs and ePubs
+*.pdf
+*.epub
+
+# Pandoc merge files
+merged.md
+
+# Editor swap/backup files
+*~
+*.swp
+.DS_Store
+
+# Scrivener project folders (stored locally but not versioned)
+*.scriv
+*.scrivx
+*.scriv-tef
+*.bak
+
+# Node or Python if you later add automation scripts
+node_modules/
+.env
+__pycache__/
